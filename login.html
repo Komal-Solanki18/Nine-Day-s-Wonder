@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_index.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/categories.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-auth.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.css" />
+    
+</head>
+<body style="background-color: #96C7C1 ;">
+    <!-- navbar -->
+    <nav>
+      <div class="logo">
+        <h3><a href="Nine day's Wonder.html" class="logo-name">Nine Day's Wonder</a></h3>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="contact.html">ContactUs</a></li>
+        <li><a href="login.html" id="login">Login</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  <!-- navbar --> 
+
+    <div class="login">
+      <img src="https://image.freepik.com/free-vector/online-registration-sign-up-with-man-sitting-near-smartphone_268404-95.jpg" alt="">
+      <div class="vl"></div>
+      <img src="images/login-images/undraw_empty_cart_co35.png" class="login-image" alt="">
+    </div>
+    
+    <center><h1><b> LOGIN   HERE </b></h1>
+    <br><br>
+  
+    <div class="login-form">
+      <!-- <input type="text" placeholder="Username Or Email" id="username"  size="25" style="box-sizing: border-box; height: 30px;" >
+      <br><br> 
+      <input type="password" placeholder="Password" id="password" size="25" style="box-sizing: border-box; height: 30px; "><br><br> -->
+      <!-- <a href="index.html"><button class="login-button">LOG IN</button></a>&nbsp;&nbsp;
+      <a href="index.html"> <button class="back-button">BACK </button></a>  -->
+      <div id="firebaseui-auth-container"></div>
+    </div>
+   
+  </center> 
+    <hr>
+    <br>
+
+  <script type="text/javascript" src="js/nav.js"></script>
+  <script src="js/firebase.js"></script>
+  <script src="js/login.js"></script>
+  
+</body>
+</html>
